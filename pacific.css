@@ -1,5 +1,7 @@
 body {
     color: #666666;
+    font-family: ;
+
 }
 
 header {
@@ -9,6 +11,11 @@ header {
 
 nav {
     background-color: #90C7E3;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 h2 {
@@ -17,6 +24,7 @@ h2 {
 
 .resort {
     color: #5C7FA3;
+    font-weight: bold;
 }
 
 h3 {
