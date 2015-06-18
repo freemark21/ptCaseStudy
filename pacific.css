@@ -1,11 +1,14 @@
 body {
     color: #666666;
-    font-family: ;
+    font-family: arial, sans-serif;
 
 }
 
 header {
     background-color: #000033;
+    background-image: url(images/sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
     color: #FFFFFF;
 }
 
@@ -29,4 +32,8 @@ h2 {
 
 h3 {
     color: #000033;
+}
+
+#content ul {
+    list-style-image: url(images/marker.gif);
 }
