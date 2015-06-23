@@ -9,7 +9,7 @@ body {
 }
 
 #Wrapper {
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     width: 80%;
     min-width: 960px;
     margin-left: auto;
@@ -26,9 +26,14 @@ header {
 }
 
 nav {
-    background-color: #90C7E3;
     font-weight: bold;
     padding: 5px 5px 5px 20px;
+    float: left;
+    width: 160px;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 nav a {
@@ -57,12 +62,14 @@ h3 {
 
 #content {
     padding: 1px 20px 20px;
-    float: left
+    margin-left: 190px;
+    background-color: #FFFFFF;
 }
 
 #content ul {
     list-style-image: url(images/marker.gif);
-    list-style-position: inside
+    list-style-position: inside;
+    
 }
 
 h1 {
@@ -128,4 +135,6 @@ footer {
     font-style: italic;
     padding: 20px;
     clear: both;
+    margin-left: 190px;
+    background-color: #FFFFFF;
 }
