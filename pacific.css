@@ -1,3 +1,7 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
 body {
     color: #666666;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -30,6 +34,10 @@ nav {
 nav a {
     text-decoration: none;
 }
+nav a:link { color: #000033 }
+nav a:visited { color: #344873 }
+nav a:hover { color: #FFFFFF }
+
 
 h2 {
     color: #3399CC;
@@ -49,10 +57,12 @@ h3 {
 
 #content {
     padding: 1px 20px 20px;
+    float: left
 }
 
 #content ul {
     list-style-image: url(images/marker.gif);
+    list-style-position: inside
 }
 
 h1 {
@@ -65,9 +75,57 @@ h1 {
     font-size: 90%;
 }
 
+#gallery {
+    position: relative;
+    height: 200px;
+}
+
+#gallery ul {
+    list-style-type: none;
+    width: 250px;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+    
+#gallery img {
+    float: none;
+    padding: 0
+}
+
+#gallery a {
+    text-decoration: none;
+    font-style: italic;
+    color: #666666;
+}
+
+#gallery span {
+    display: none;
+}
+
+#gallery a:hover span {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 320px;
+    text-align: center;
+}
+
+#placeholder {
+    position: absolute;
+    top: 15px;
+    left: 320px;
+    opacity: .25;
+}
+
+
 footer {
     font-size: 75%;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-style: italic;
     padding: 20px;
+    clear: both;
 }
