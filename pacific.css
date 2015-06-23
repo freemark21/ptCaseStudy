@@ -138,3 +138,15 @@ footer {
     margin-left: 190px;
     background-color: #FFFFFF;
 }
+
+@media only screen and (max-width: 768px) {
+    body { margin: 0; }
+    #Wrapper { min-width: 0; width: auto; box-shadow: none;}
+    nav {float: none; width: auto; padding: 0;}
+    nav ul { padding-left: 10px; margin-top: 0.5em; margin-bottom: 0.5em;}
+    nav li { display: inline; padding: 0 .75em 0; }
+    #content { margin-left: 0 }
+    footer { margin-left: 0 }
+    
+    
+}
