@@ -82,6 +82,10 @@ h1 {
     font-size: 90%;
 }
 
+.mobile {
+    display: none;
+}
+
 #gallery {
     position: relative;
     height: 200px;
@@ -150,7 +154,7 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
-    #content #gallery { display: none; }
+    #gallery { display: none; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -161,4 +165,6 @@ footer {
     nav a { display: block; }
     #content img { float: none; padding: 0; margin: 0.1em; }
     #content ul { list-style-position: outside; }
+    .desktop { display: none; }
+    .mobile { display: block; }
 }
