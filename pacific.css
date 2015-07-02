@@ -139,6 +139,44 @@ h1 {
     opacity: .25;
 }
 
+table {
+    border: 1px solid #3399CC;
+    width: 80%;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid #3399CC;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #3399CC;
+    text-align: center;
+    padding: 5px
+}
+
+.text {
+    text-align: left;
+}
+
+.alt {
+    background-color: #F5FAFC;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
 
 footer {
     font-size: 75%;
@@ -174,4 +212,5 @@ footer {
     #content ul { list-style-position: outside; }
     .desktop { display: none; }
     .mobile { display: block; }
+    label { float: none; text-align: left; }
 }
