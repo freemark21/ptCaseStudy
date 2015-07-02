@@ -25,9 +25,13 @@ header {
     color: #FFFFFF;
 }
 
-#content img {
+#content img, #content video, #content embed {
     float: left;
     padding-right: 20px;
+}
+
+.img {
+    display: none;
 }
 
 nav {
@@ -45,16 +49,23 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    transition-timing-function: ease-out;
+    transition-duration: 3s;
 }
 nav a:link { color: #000033 }
 nav a:visited { color: #344873 }
 nav a:hover { color: #FFFFFF }
 
-
 h2 {
     color: #3399CC;
     font-family: Georgia, Times, "Times New Roman", serif;
     text-shadow: 1px 1px 1px #666666;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
 }
 
 .resort {
@@ -75,8 +86,7 @@ h3 {
 
 #content ul {
     list-style-image: url(images/marker.gif);
-    list-style-position: inside;
-    
+    list-style-position: inside; 
 }
 
 h1 {
@@ -213,4 +223,6 @@ footer {
     .desktop { display: none; }
     .mobile { display: block; }
     label { float: none; text-align: left; }
+    video { display: none; }
+    .img { display: block; }
 }
